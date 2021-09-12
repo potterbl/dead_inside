@@ -1,0 +1,144 @@
+/*font-family: 'Abril Fatface', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Urbanist', sans-serif;*/
+
+
+.search{
+	font-family: 'Bebas Neue', cursive;
+	display: flex;
+	font-size: 30px;
+	justify-content: center;
+	margin-top: 40vh;
+	text-decoration: none;
+}
+
+.inner_search{
+	margin-right: 20px;
+}
+
+.inner_search a{
+	text-decoration: none;
+	color: #12c0ce;
+	transition: 0.3s;
+	opacity: 50%;
+}
+
+.inner_search:hover a{
+	font-size: 40px;
+	opacity: 100%;
+}
+
+header {
+	height: 50px;
+	text-align: center;
+	font-family: 'Abril Fatface', cursive;
+	border-bottom: 2px solid black;
+	border-radius: 2px;
+	background-color: #aeaeae;
+	margin-top: 0;
+	padding-top: 0;
+	position: sticky;
+	top: 0px;
+	width: 100%;
+	margin-top: -25px;
+	z-index: 2;
+
+}
+
+header a{
+	text-decoration: none;
+	color: #000;
+}
+
+/*font-family: 'Abril Fatface', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Urbanist', sans-serif;*/
+
+.content{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-size: 25px;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	font-family: 'Urbanist', sans-serif;
+	display: flex;
+}
+
+.content_inner{
+	width: 70%;
+	border: 2px solid white;
+	border-radius: 8px;
+	box-shadow: 0 0 7px 6px #e340dc;
+	opacity: 80%;
+	background-color: white;
+	color: #e340dc;
+	padding-right: 5%;
+	padding-left: 5%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.second_content{
+	width: 15%;
+	background-color: white;
+	margin-left: 20px;
+	height: 100%;
+	font-family: 'Urbanist', sans-serif;
+}
+
+body {
+	background-color: #aeaeae;
+	background: url(https://th.bing.com/th/id/R.8ead587348a5f2056d8c2d250f2a174e?rik=luYnhm7S9L6ymg&pid=ImgRaw&r=0) center no-repeat fixed;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+}
+
+.second_page{
+	background-color: #aeaeae;
+	background: url(https://wallpaperaccess.com/full/2471354.gif) center no-repeat fixed;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+}
+
+.second_content{
+	padding: 10px;
+}
+
+.img_second{
+	width: 80%;
+}
+
+.link_end{
+	width: 350px;
+	height: 50px;
+	font-size: 25px;
+	background-color: #ee9fe3;
+	text-align: center;
+	padding-top: 20px;
+	border-radius: 15px;
+	text-decoration: none;
+	transition: 0.5s;
+	font-family: 'Urbanist', sans-serif;
+	opacity: 80%;
+	border: 1px solid white;
+}
+
+.link_end:hover {
+	opacity: 100%;
+	transform: scale(1.1);
+	box-shadow: 0 0 7px 6px #e340dc;
+}
+
+.links{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+
+
+.links_end a{
+}
